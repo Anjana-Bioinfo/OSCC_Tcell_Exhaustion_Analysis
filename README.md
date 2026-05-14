@@ -61,6 +61,31 @@ To investigate whether OSCC tumors exhibit heterogeneous T cell exhaustion state
 * PCA analysis revealed partial separation of exhaustion-high and exhaustion-low tumors, suggesting structured but heterogeneous immune states within the cohort.
 
 ---
+---
+
+## Key Figures
+
+### Exhaustion marker expression across high and low exhaustion groups
+
+![Exhaustion marker boxplots](exhaustion_marker_boxplots_pvalues.png)
+
+This figure compares exhaustion marker expression between low- and high-exhaustion OSCC tumors. TIGIT, CTLA4, LAG3, ENTPD1, HAVCR2, and TOX showed strong statistical differences between groups, while PDCD1 showed a weaker but significant difference.
+
+---
+
+### Correlation heatmap of exhaustion markers
+
+![Correlation heatmap](correlation_heatmap.png)
+
+This heatmap shows that TIGIT, CTLA4, LAG3, HAVCR2, ENTPD1, and TOX form a coordinated checkpoint network, while PDCD1 is comparatively less connected.
+
+---
+
+### PCA of exhaustion marker expression
+
+![PCA exhaustion](PCA_exhaustion.png)
+
+PCA analysis demonstrated partial separation between high- and low-exhaustion tumors, suggesting structured immune heterogeneity across OSCC samples.
 
 ## Biological Interpretation
 
@@ -101,3 +126,7 @@ Anjana Suresh
 Master’s in Biotechnology
 Cancer Immunology and Immunotherapeutics Research Background
 ACTREC, Tata Memorial Centre
+
+
+
+
