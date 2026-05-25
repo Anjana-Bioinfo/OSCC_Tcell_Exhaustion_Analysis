@@ -3,3 +3,4 @@ Project figures and visualizations.
 ![PDCD1 vs LAG3](plots/PDCD1_vs_LAG3.png)
 ![Correlation heatmap](plots/correlation_heatmap.png)
 ![Exhaustion heatmap](plots/exhaustion_heatmap_large.png)
+![Exhaustion histogram](plots/exhaustion_histogram.png)
