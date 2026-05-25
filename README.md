@@ -1,5 +1,9 @@
 # T Cell Exhaustion Signature Analysis in Oral Squamous Cell Carcinoma
 
+![R](https://img.shields.io/badge/Language-R-blue)
+![Bioinformatics](https://img.shields.io/badge/Field-Bioinformatics-green)
+![Cancer Immunology](https://img.shields.io/badge/Focus-Cancer%20Immunology-red)
+
 ## Project Overview
 
 This project explores T cell exhaustion-associated gene expression patterns in oral squamous cell carcinoma (OSCC) using public transcriptomic data from GEO.
@@ -21,9 +25,7 @@ Do OSCC tumors show heterogeneous T cell exhaustion states, and which immune che
 * Platform: Affymetrix Human Genome U133 Plus 2.0 Array
 * Samples: 229 OSCC tumor samples
 
-Data Source:
-https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30784
-
+**Data Source:** [GSE30784 GEO Dataset](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30784)
 ---
 
 ## Aim
@@ -67,7 +69,6 @@ To investigate whether OSCC tumors exhibit heterogeneous T cell exhaustion state
 * Correlation analysis identified a coordinated checkpoint module involving TIGIT, CTLA4, LAG3, HAVCR2, ENTPD1, and TOX.
 * PCA analysis revealed partial separation of exhaustion-high and exhaustion-low tumors, suggesting structured but heterogeneous immune states within the cohort.
 
----
 ---
 ## Main Interpretation
 
@@ -189,6 +190,8 @@ The next project will explore whether exhaustion-high tumors also retain cytotox
 - Boxplot visualization with statistical comparison
 - Biological interpretation of cancer transcriptomic data
 - R programming for bioinformatics
+## Author
+
 ## Author
 
 Anjana Suresh
