@@ -4,3 +4,4 @@ Project figures and visualizations.
 ![Correlation heatmap](plots/correlation_heatmap.png)
 ![Exhaustion heatmap](plots/exhaustion_heatmap_large.png)
 ![Exhaustion histogram](plots/exhaustion_histogram.png)
+![Exhaustion marker boxplots](plots/exhaustion_marker_boxplots.png)
