@@ -6,6 +6,13 @@ This project explores T cell exhaustion-associated gene expression patterns in o
 
 The analysis focuses on understanding immune heterogeneity across OSCC tumors and evaluating the coordinated behavior of key immune checkpoint markers associated with dysfunctional T cell states.
 
+## Why this project matters
+
+T cell exhaustion is an important feature of dysfunctional anti-tumor immunity and may contribute to poor immune control in cancer. In oral squamous cell carcinoma (OSCC), understanding exhaustion-associated immune checkpoint programs can help explore tumor immune heterogeneity and potential mechanisms of immunotherapy resistance.
+
+## Research Question
+
+Do OSCC tumors show heterogeneous T cell exhaustion states, and which immune checkpoint genes are most strongly associated with exhaustion-high tumors?
 ---
 
 ## Dataset
@@ -62,6 +69,11 @@ To investigate whether OSCC tumors exhibit heterogeneous T cell exhaustion state
 
 ---
 ---
+## Main Interpretation
+
+This exploratory analysis suggests that OSCC tumors do not show a uniform immune exhaustion pattern. Instead, tumors display variable exhaustion-associated transcriptional states.
+
+Markers such as LAG3, TIGIT, CTLA4, HAVCR2, ENTPD1, and TOX appeared more coordinated with the exhaustion-high phenotype, while PDCD1 showed comparatively weaker coordination within the broader checkpoint marker network.
 
 ## Key Figures
 
@@ -118,7 +130,31 @@ OSCC_Project/
 ```
 
 ---
+## Limitations
 
+This project is an exploratory analysis using bulk transcriptomic data. The results show gene expression associations and do not prove functional T cell exhaustion or causal immune mechanisms.
+
+Further validation using single-cell RNA-seq, flow cytometry, spatial transcriptomics, or experimental assays would strengthen the biological interpretation.
+
+## Future Directions
+
+Future analysis will focus on cytotoxicity-associated immune programs in OSCC, including genes such as GZMB, PRF1, IFNG, GNLY, NKG7, and CD8A.
+
+The next project will explore whether exhaustion-high tumors also retain cytotoxic immune activity or represent dysfunctional immune states.
+
+## Skills Demonstrated
+
+- GEO dataset analysis
+- Probe-to-gene symbol mapping
+- Gene-level expression matrix generation
+- Exhaustion signature scoring
+- High vs low exhaustion stratification
+- Correlation analysis
+- PCA visualization
+- Heatmap generation
+- Boxplot visualization with statistical comparison
+- Biological interpretation of cancer transcriptomic data
+- R programming for bioinformatics
 ## Author
 
 Anjana Suresh
