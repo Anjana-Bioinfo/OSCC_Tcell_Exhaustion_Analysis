@@ -1,2 +1,2 @@
 Project figures and visualizations.
-PCA_exhaustion.png
+![PCA exhaustion](plots/PCA_exhaustion.png)
